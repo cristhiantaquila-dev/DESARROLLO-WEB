@@ -1,0 +1,245 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes de Sonido</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        body { background-color: #eef1f5; color: #333; }
+
+        .header {
+            padding: 30px 0;
+            text-align: center;
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+            color: white;
+        }
+
+        .card {
+            border-radius: 12px;
+            background: white;
+            border: none;
+            transition: transform 0.2s ease;
+        }
+        .card:hover { transform: translateY(-5px); }
+
+        .img-placeholder {
+            width: 100%;
+            height: 150px;
+            background-color: #d9d9d9;
+            border-radius: 8px;
+            margin-bottom: 12px;
+        }
+
+        #ruleta img {
+            height: 350px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="ruleta" class="carousel slide mb-5" data-bs-ride="carousel" data-bs-interval="2500">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/miimagen111.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/miimagen222.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/miimagen333.jpg" class="d-block w-100">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#ruleta" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#ruleta" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+    <section class="container-fluid p-0 d-flex flex-wrap">
+        <div class="col-md-6 d-flex flex-column justify-content-center p-5">
+            <h1 class="fw-bold display-5">HYPER AUDIO MAX</h1>
+            <p class="fs-5 text-muted">LA EVOLUCION DE LA AUDIOFILIA</p>
+            <button class="btn btn-dark rounded-pill px-4 py-2 mt-3">Más información →</button>
+        </div>
+        <div class="col-md-6">
+            <div class="w-100 h-100" style="background:#d9d9d9; height:350px;"></div>
+        </div>
+    </section>
+
+    <header class="header">
+        <h1 class="fw-light">Componentes de Sonido</h1>
+        <p class="text-muted">equipos de audio</p>
+    </header>
+
+    <section class="container mt-4">
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card p-3 shadow-sm">
+                    <div class="img-placeholder"></div>
+                    AUDIFONOS
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-3 shadow-sm">
+                    <div class="img-placeholder"></div>
+                    PARLANTES
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-3 shadow-sm">
+                    <div class="img-placeholder"></div>
+                    MICROFONOS
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-3 shadow-sm">
+                    <div class="img-placeholder"></div>
+                    DACS O AMPLIFICADORES
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-3 shadow-sm">
+                    <div class="img-placeholder"></div>
+                    AÑADIR PC
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-3 shadow-sm">
+                    <div class="img-placeholder"></div>
+                    SOPORTE Y REPARACIÓN
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <section class="container mt-5">
+        <h2 class="fw-light text-center mb-4">Tipos de Conectores</h2>
+        <div class="row g-4">
+
+            <div class="col-md-3">
+                <div class="card p-3 shadow-sm">
+           <div class="img-placeholder"></div>
+                </div>jack3.5mm</div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card p-3 shadow-sm">
+                    <div class="img-placeholder"></div>
+                </div>usb3.0</div>
+                
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card p-3 shadow-sm">
+                     </div>jack4.4</div>
+                   
+                  
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card p-3 shadow-sm">
+                    </div>usbdac</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container mt-5 mb-5">
+        <h2 class="fw-light text-center mb-4">Noticias</h2>
+        <div class="row g-4">
+            
+            <div class="col-md-4">
+                <div class="card p-3 shadow-sm">
+                    <div class="img-placeholder" style="height:180px;"></div>
+                    <h6>N</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet dolorem temporibus. Nisi iste ex necessitatibus optio illum suscipit iusto. Laborum rem in odio nihil saepe quis debitis voluptatibus magni.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-3 shadow-sm">
+                    <div class="img-placeholder" style="height:180px;"></div>
+                    <h6>MODELO</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, sequi. Quia ducimus saepe magni. Nihil cupiditate veniam recusandae molestias, possimus facilis, dicta iure placeat rem est exercitationem aliquam natus sequi.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card p-3 shadow-sm">
+                    <div class="img-placeholder" style="height:180px;"></div>
+                    <h6>Actualizaciones</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus laudantium ab quae ut consequatur commodi quibusdam minus? Cumque, autem corrupti, deleniti eum impedit hic voluptatibus, incidunt assumenda quae ut omnis?</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="mt-5 text-white pt-5 pb-4" 
+        style="background: linear-gradient(90deg, #1e3c72, #2a5298);">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold">Componentes de Sonido</h5>
+                    <p class="small text-white-50">
+                        Tecnología, calidad y sonido profesional para todos.
+                    </p>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h6 class="fw-bold">Enlaces</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#" class="text-white-50 text-decoration-none">Inicio</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Productos</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h6 class="fw-bold">Síguenos</h6>
+                    <div>
+                        <a href="#" class="me-3 text-white fs-5"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="me-3 text-white fs-5"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white fs-5"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="border-light">
+
+            <div class="text-center small text-white-50">
+                © 2025 Componentes de Sonido — Tecnología para cada experiencia auditiva
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
